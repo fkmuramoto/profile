@@ -1,0 +1,107 @@
+body {
+  background-color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
+  color: solid black;
+  font-size: 14px;
+}
+
+tr {
+  display: table-row;
+  vertical-align: top;
+}
+
+td {
+  display: table-cell;
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  width: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 5px 5px solid grey;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.img-profile {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid lightgrey;
+  box-shadow: 2px 2px #E7EED2 75%;
+}
+
+.img-book {
+  display: block;
+  margin-top: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 5%;
+  border: 1px #E7EED2;
+  box-shadow: 2px 2px #E7EED2 75%;
+}
+
+.fa {
+  color: lightgrey;
+  font-size: 42px;
+}
+
+.href-fa {
+  color: lightgrey;
+  font-size: 12px;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  line-height: 60%;
+}
+
+h1 {
+  color: #466551;
+  font-size: 26px;
+  text-decoration: bold;
+}
+
+h2 {
+  color: #368C72;
+  font-size: 22px;
+}
+
+h3 {
+  color: #368C72;
+  font-size: 18px;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+/* Here goes your CSS */
